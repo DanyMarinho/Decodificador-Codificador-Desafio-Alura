@@ -1,42 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
 
-:root {
-    --corprincipal: #609ED4;
-    --corsecundaria: #E9ECF8; 
-    --cortitulo:#7c0160;
+:root{
+    --corprincipal: #ffc7f9;
+    --corsecundaria:#caf9ff;
+    --cortitulo:#b4227c;
 }
 
-body {
-    background: var(--corprincipal);
+body{
+    background: var(--corsecundaria);
+
 }
 
-* {
+*{
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
 }
-.cabecalho {
+
+
+.cabecalho{
     display: flex;
     justify-content: space-between;
     padding: 2%;
 }
 
 .cabecalho h1{
-    color:var(--cortitulo)
+    color: var(--cortitulo);
 }
 
-.container-input {
+.container-input{
     display: flex;
     justify-content: space-between;
     padding: 2% 0 0 4%;
 }
 
-.container-input .input {
+.container-input .input{
     width: 400px;
     height: 330px;
 }
 
-#input-texto {
+#input-texto{
     width: 345px;
     height: 330px;
     font-size: 20px;
@@ -49,16 +52,7 @@ body {
     padding: 10px;
     text-transform: uppercase;
 }
-
-#output{
-    display: flex;
-    flex-direction: column;
-    border: 3px solid var(--cortitulo);
-    border-radius: 20px;
-    width: 350px;
-    height: 400px;
-    margin-right: 15%;
-}
+    
 
 #output{
     display: flex;
@@ -86,9 +80,9 @@ body {
     max-height:250px;
     width: auto;
     height: auto;
-    margin-top: 10%;
-    
+    margin-top: 4%;
 }
+
 .container-bnt button{
     border: 2px solid var(--cortitulo);
     border-radius: 10px;
@@ -97,10 +91,10 @@ body {
     width: 150px;
     height: 50px;
     margin-left: 4%;
-    cursor: pointer;  
+    cursor: pointer;
 }
 
-.bnt-copiar {
+.btn-copiar{
     border: 2px solid var(--cortitulo);
     border-radius: 10px;
     text-decoration: none;
@@ -109,21 +103,21 @@ body {
     height: 50px;
     margin-bottom: 10%;
     margin-left: 30%;
-    cursor: pointer;  
-   
-}
-.container-bnt button:hover {
-    border: 2px solid var(--corsecundaria);
-    transition: 0.5 all;
+    cursor: pointer;
 }
 
-.rodape {
+.container-bnt button:hover{
+   border: 2px solid var(--corsecundaria);
+   transition: 0.5s all;
+}
+
+.rodape{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2%;
-    margin-top: 15px;
-    background: var(--corprincipal);
+    margin-top: 15px ;
+    background:var(--corprincipal) ;
     color: var(--cortitulo);
 }
 
@@ -140,4 +134,12 @@ body {
 .icons ion-icon:hover{
     color: var(--corsecundaria);
 }
+
+
+
+
+
+
+
+
 
